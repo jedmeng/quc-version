@@ -1,0 +1,44 @@
+{
+  "name": "grunt-quc-version",
+  "description": "Version control system for quc js sdk.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jedmeng/quc-version",
+  "author": {
+    "name": "Jedmeng",
+    "email": "roy.urey@gmail.com",
+    "url": "http://www.jedm.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jedmeng/quc-version.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jedmeng/quc-version/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/jedmeng/quc-version/blob/master/LICENCE-GPL-2.0"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+	"node.svn": "~0.1.6"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
